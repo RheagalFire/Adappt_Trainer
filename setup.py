@@ -8,5 +8,9 @@ setup(
         'pandas',
         'scikit-learn',
         'mlflow'
-    ],
+    ],entry_points={
+        'console_scripts': [
+            'ml_pipeline=adappt_trainer.cli:main',
+        ],
+    },
 )
