@@ -77,7 +77,7 @@ docker run -v /path/to/data:/app/data -it adappt_trainer [command] [options]
 ## Notebook
 You can checkout the notebook file on how to preprocess,train,infer using the modules [here](notebooks/Running%20Modules.ipynb)  
 
-## MLFLOW UI
+## Mlflow UI
 MLFLOW logged artifacts 
 ![image](https://github.com/RheagalFire/Adappt_Trainer/assets/60213893/6f46eb8a-e37b-4074-9bd3-1adb25e68c46)
 
