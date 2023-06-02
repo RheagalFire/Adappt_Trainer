@@ -8,7 +8,7 @@ Adappt_Trainer is a Python package that provides data preprocessing, model train
 - [Usage](#usage)
   - [CLI Commands](#cli-commands)
   - [Running CLI Commands using Docker](#running-cli-commands-using-docker)
--[Notebook](#notebook)
+- [Notebook](#notebook)
 
 ## Installation
 
