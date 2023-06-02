@@ -45,7 +45,7 @@ The Adappt_Trainer package provides various CLI commands to perform data preproc
 ml_pipeline preprocess --input-data-dir /path/to/input_data
 
 ```
-- Train: Trains the attrition risk prediction model using the preprocessed data.While Training pass in the flag --mlflow-logging to log metrics,artifacts using MLflow Example:
+- Train: Trains the attrition risk prediction model using the preprocessed data.While Training pass in the flag --mlflow-logging to log metrics,artifacts using MLflow, to see the logged artifacts and metrics you'd need to run `mlflow server` first Example:
 ```
 ml_pipeline train --input-file-path /path/to/preprocessed_data.csv
 
@@ -75,6 +75,10 @@ docker run -v /path/to/data:/app/data -it adappt_trainer [command] [options]
     ```
 ## Notebook
 You can checkout the notebook file on how to preprocess,train,infer using the modules [here](notebooks/Running%20Modules.ipynb)  
+
+## MLFLOW UI
+MLFLOW logged artifacts 
+![image](https://github.com/RheagalFire/Adappt_Trainer/assets/60213893/6f46eb8a-e37b-4074-9bd3-1adb25e68c46)
 
 
 
