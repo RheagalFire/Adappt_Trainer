@@ -45,7 +45,8 @@ The Adappt_Trainer package provides various CLI commands to perform data preproc
 ml_pipeline preprocess --input-data-dir /path/to/input_data
 
 ```
-- train: Trains the attrition risk prediction model using the preprocessed data.While Training pass in the flag --mlflow-logging to log metrics,artifacts using MLflow, to see the logged artifacts and metrics you'd need to run `mlflow server` first Example:
+  You have argument to change the output storage of the directory as well just pass `--output-data-dir`.
+- train: Trains the attrition risk prediction model using the preprocessed data.While Training pass in the flag --mlflow-logging to log metrics,artifacts using MLflow, to see the logged artifacts and metrics you'd need to run `mlflow server` first. Note that by default the preprocessed data is stored at clean_data directory. Example:
 ```
 ml_pipeline train --input-file-path /path/to/preprocessed_data.csv
 
